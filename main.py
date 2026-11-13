@@ -64,7 +64,7 @@ if test_video.exists():
 st.write(test_video)
 REELS = [
 
-    "STATIC_DIR /assets/reels/reel_01.mp4",
+    "/mount/src/mezan_portfolio/static/assets/reels/reel_01.mp4",
 
     "STATIC_DIR /assets/reels/reel_02.mp4",
 
