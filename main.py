@@ -64,15 +64,15 @@ if test_video.exists():
 st.write(test_video)
 REELS = [
 
-    "assets/reels/reel_01.mp4",
+    "STATIC_DIR /assets/reels/reel_01.mp4",
 
-    "assets/reels/reel_02.mp4",
+    "STATIC_DIR /assets/reels/reel_02.mp4",
 
-    "assets/reels/reel_03.mp4",
+    "STATIC_DIR /assets/reels/reel_03.mp4",
 
-    "assets/reels/reel_04.mp4",
+    "STATIC_DIR /assets/reels/reel_04.mp4",
 
-    "assets/reels/reel_05.mp4",
+    "STATIC_DIR /assets/reels/reel_05.mp4",
 
 ]
 
