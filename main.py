@@ -61,7 +61,7 @@ st.write("Video exists:", test_video.exists())
 
 if test_video.exists():
     st.write("Video size:", round(test_video.stat().st_size / (1024 * 1024), 2), "MB")
-st.video(test_video)
+st.write(test_video)
 REELS = [
 
     "assets/reels/reel_01.mp4",
