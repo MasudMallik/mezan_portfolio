@@ -54,6 +54,13 @@ def render_html(markup: str):
 
 # ==========================================================
 
+test_video = STATIC_DIR / "assets/reels/reel_01.mp4"
+
+st.write("Static folder:", STATIC_DIR.exists())
+st.write("Video exists:", test_video.exists())
+
+if test_video.exists():
+    st.write("Video size:", round(test_video.stat().st_size / (1024 * 1024), 2), "MB")
 REELS = [
 
     "assets/reels/reel_01.mp4",
