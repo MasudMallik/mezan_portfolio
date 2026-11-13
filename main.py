@@ -61,18 +61,18 @@ st.write("Video exists:", test_video.exists())
 
 if test_video.exists():
     st.write("Video size:", round(test_video.stat().st_size / (1024 * 1024), 2), "MB")
-st.write(test_video)
+
 REELS = [
 
-    "/mount/src/mezan_portfolio/static/assets/reels/reel_01.mp4",
+    STATIC_DIR / "assets/reels/reel_01.mp4",
 
-    "STATIC_DIR /assets/reels/reel_02.mp4",
+    "assets/reels/reel_02.mp4",
 
-    "STATIC_DIR /assets/reels/reel_03.mp4",
+    "assets/reels/reel_03.mp4",
 
-    "STATIC_DIR /assets/reels/reel_04.mp4",
+    "assets/reels/reel_04.mp4",
 
-    "STATIC_DIR /assets/reels/reel_05.mp4",
+    "assets/reels/reel_05.mp4",
 
 ]
 
