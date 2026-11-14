@@ -305,7 +305,7 @@ footer { visibility: hidden; }
 HERO_MEDIA = [
     ("Reels & Shorts",   "Short-form editing",   "https://drive.google.com/file/d/1iVLdkJsyeKYxGZiG6FC7ARU8Kh9nsvwu/view?usp=drive_link"),
     ("Motion Graphics",  "Creative animation",   "https://drive.google.com/file/d/1mXyIELkAEqmZpPu67IErTUTT7165BFgU/view?usp=drive_link"),
-    ("Thumbnail Design", "Visual storytelling",  "assets/thumbnails/thumbnail_01.jpg"),
+    ("Thumbnail Design", "Visual storytelling",  "static/assets/thumbnails/thumbnail_01.jpg"),
     ("Documentaries",    "Powerful stories",     "https://drive.google.com/file/d/1YwXaQro0PTehzPuq8MvzaVPHl8C9M7Ch/view?usp=drive_link"),
     ("Product Ads",      "Creative campaigns",   "https://drive.google.com/file/d/1CxtbK3aN2C2vIRVG0rS8U-n2jRsJwx3L/view?usp=drive_link"),
     ("AI Visuals",       "Next-gen creativity",  None),
